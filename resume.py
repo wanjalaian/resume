@@ -55,7 +55,7 @@ st.markdown(
     .hire-me-button:hover {
         background-color: #44bd32;
         color: white; /* Text color on hover */
-        text-decoration: none;
+        
     }
     .hire-me-button span {
         text-decoration: none; /* Ensure no underline */
