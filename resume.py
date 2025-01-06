@@ -189,7 +189,7 @@ st.write(
 st.divider()
 
 # Career Highlights
-st.subheader("Career Highlights")
+ st.markdown("###### Career Highlights")
 
 # Highlight 1: Product Analysis & Reporting
 with st.expander("📊 Product Analysis & Reporting"):
@@ -233,7 +233,7 @@ with st.expander("🤖 Workflow Automation & Efficiency Gains"):
 st.divider()
 
 # Skills
-st.subheader("Skills")
+st.markdown("###### Skills")
 skills = [
     ("📊", "Data Analysis"),
     ("📈", "Product Metrics"),
@@ -261,7 +261,7 @@ st.markdown(skill_pills, unsafe_allow_html=True)
 st.divider()
 
 # Work Experience Section
-st.subheader("Work Experience")
+st.markdown("###### Work Experience")
 
 # Work Experience
 work_experience = [
@@ -315,11 +315,11 @@ for job in work_experience:
 st.divider()
 
 # Education
-st.subheader("Education")
+st.markdown("###### Education")
 st.write("🎓 BSc in Computer Science | Egerton University | 2022")
 
 #Projects
-st.markdown("##### Projects")
+st.markdown("######  Projects")
 
 # Project 1: Solo Project - Taxi Hailing App
 with st.expander("🚕 Taxi Hailing App (Solo Project)"):
@@ -344,7 +344,7 @@ st.divider()
 
 
 # Section header
-st.subheader("Things I Do on the Side")
+st.markdown("###### Things I Do on the Side")
 
 # Define the tools and their descriptions
 tools = {
