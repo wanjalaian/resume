@@ -178,7 +178,7 @@ with col2:
 st.divider()
 
 # About Me
-st.subheader("About Me")
+st.markdown("###### About Me")
 st.write(
     "Dynamic Data Analyst with a proven track record in leveraging data to deliver actionable insights, "
     "build dashboards, and drive strategic decisions. Experienced in Python, SQL, Tableau, and Power BI, "
@@ -189,7 +189,7 @@ st.write(
 st.divider()
 
 # Career Highlights
- st.markdown("###### Career Highlights")
+st.markdown("###### Career Highlights")
 
 # Highlight 1: Product Analysis & Reporting
 with st.expander("📊 Product Analysis & Reporting"):
