@@ -45,6 +45,7 @@ st.markdown(
         cursor: pointer;
         font-size: 16px;
         margin-top: 10px;
+        tex
         
         display: inline-flex;
         align-items: center;
@@ -89,6 +90,19 @@ st.markdown(
         color: white;
         font-size: 0.9em;
     }
+    a:link { 
+      text-decoration: none; 
+    } 
+    a:visited { 
+      text-decoration: none; 
+    } 
+    a:hover { 
+      text-decoration: none; 
+    } 
+    a:active { 
+      text-decoration: none; 
+    }
+
     </style>
     """,
     unsafe_allow_html=True,
