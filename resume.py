@@ -181,8 +181,8 @@ st.divider()
 st.markdown("##### About Me")
 st.write(
     "Dynamic Data Analyst with a proven track record in leveraging data to deliver actionable insights, "
-    "build dashboards, and drive strategic decisions. Experienced in Python, SQL, Tableau, and Power BI, "
-    "with a strong focus on collaboration and cross-functional alignment to achieve organizational goals."
+    "build dashboards, and drive strategic decisions. Experienced in Excel, Python, SQL, Power BI, and Zoho Suite "
+    "with a strong focus on improving operational effiency and cross-functional alignment to achieve organizational goals."
 )
 
 # Line separator
