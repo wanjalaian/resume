@@ -393,7 +393,7 @@ tools = {
 # Function to display tools in columns
 def display_tools(category, tools_list):
     st.markdown(f"**{category}**")
-    cols = st.columns(len(tools_list))  # Create columns for each tool
+    cols = st.columns(len(tools_list), border=True)  # Create columns for each tool
     for i, tool in enumerate(tools_list):
         with cols[i]:
             st.markdown(
